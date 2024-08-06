@@ -11,9 +11,9 @@ const Navbar = () => {
         <li>Work</li>
         <li>Testimonials</li>
         <li>Contact</li>
-        <li><img src="/public/divider.svg" alt="" /></li>
+        <li><img src="/divider.svg" alt="" /></li>
         <ul className="flex items-center gap-4">
-            <li><img src="/public/mode.svg" alt="mode"/></li>
+            <li><img src="/mode.svg" alt="mode"/></li>
             <li><button className="px-4 py-1.5 bg-gray-900 text-gray-50 rounded-xl">Download CV</button></li>
         </ul>
     </ul>
