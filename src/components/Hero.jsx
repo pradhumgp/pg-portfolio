@@ -19,25 +19,25 @@ const Hero = () => {
 
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <img src="/public/location.svg" alt="location" />
+                <img src="/location.svg" alt="location" />
                 <span className="text-gray-600 leading-24">
                   Firozabad, India
                 </span>
               </div>
               <div className="flex gap-2">
-                <img src="/public/online.svg" alt="" />
+                <img src="/online.svg" alt="" />
                 <span className="text-gray-600 leading-24">Available for new projects</span>
               </div>
             </div>
 
             <div className="flex gap-1">
-              <img src="/public/github.svg" alt="github" />
-              <img src="/public/twitter.svg" alt="twitter" />
-              <img src="/public/linkedin.svg" alt="linkedin" />
+              <img src="/github.svg" alt="github" />
+              <img src="/twitter.svg" alt="twitter" />
+              <img src="/linkedin.svg" alt="linkedin" />
             </div>
           </div>
           <div>
-            <img src="/public/pg.jpeg" alt="Pradhum's photo" className="object-cover w-full h-full rounded-md shadow-xl"/>
+            <img src="/pg.jpeg" alt="Pradhum's photo" className="object-cover w-full h-full rounded-md shadow-xl"/>
           </div>
         </div>
       </div>

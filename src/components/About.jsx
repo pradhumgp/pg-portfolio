@@ -10,7 +10,7 @@ const About = () => {
           </div>
           <div className="flex gap-12 justify-evenly">
             <div>
-            <img src="/public/pg.jpeg" alt="Pradhum's photo" className="object-cover w-auto h-full rounded-md shadow-xl"/>
+            <img src="/pg.jpeg" alt="Pradhum's photo" className="object-cover w-auto h-full rounded-md shadow-xl"/>
             </div>
           <div className="flex flex-col max-w-xl gap-12">
             <div>
