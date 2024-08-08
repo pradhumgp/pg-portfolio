@@ -1,8 +1,8 @@
-const Skills = () => {
+const Skills = ({refHook}) => {
   return (
     <>
-      <div className="px-20 py-24">
-        <div className="flex flex-col gap-12 px-8">
+      <div className="px-20 py-24" ref={refHook}>
+        <div className="flex flex-col items-center gap-12 px-8">
           <div className="flex flex-col items-center gap-4">
             <div>
               <button className="px-5 py-1 text-sm font-medium text-gray-600 bg-gray-200 leading-20 rounded-xl">
@@ -14,7 +14,7 @@ const Skills = () => {
             </span>
           </div>
           <div>
-            <ul className="flex flex-wrap items-baseline justify-center gap-12">
+            <ul className="flex flex-wrap items-baseline justify-center max-w-3xl gap-12">
               <li className="flex flex-col items-center gap-2">
                 <img src="/javascript.svg" alt="javascript" />
                 <span className="text-lg text-gray-600">Javascript</span>
@@ -26,8 +26,23 @@ const Skills = () => {
               </li>
 
               <li className="flex flex-col items-center gap-2">
+                <img src="/nextjs.svg" alt="nextjs" />
+                <span className="text-lg text-gray-600">Nextjs</span>
+              </li>
+
+              <li className="flex flex-col items-center gap-2">
                 <img src="/react.svg" alt="react" />
                 <span className="text-lg text-gray-600">React</span>
+              </li>
+
+              <li className="flex flex-col items-center gap-2">
+                <img src="/vue.png" alt="vuejs" />
+                <span className="text-lg text-gray-600">Vue.js</span>
+              </li>
+
+              <li className="flex flex-col items-center gap-2">
+                <img src="/expo.svg" alt="expo" />
+                <span className="text-lg text-gray-600">Expo.dev</span>
               </li>
 
               <li className="flex flex-col items-center gap-2">

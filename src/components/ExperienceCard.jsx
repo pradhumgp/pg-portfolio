@@ -1,14 +1,14 @@
 const ExperienceCard = ({ logo, details, dates }) => {
   return (
     <>
-      <div className="w-10/12 p-8 bg-white shadow-md rounded-xl">
-        <div className="flex justify-around gap-12">
-          <img src={logo} alt="" className="w-32 h-8" />
-          <div>
-            <span>
+      <div className="w-9/12 p-8 bg-white shadow-sm rounded-xl">
+        <div className="flex items-start gap-12 justify-evenly">
+          <img src={logo} alt="" className="h-10 w-36" />
+          <div className="flex flex-col max-w-lg gap-4">
+            <span className="text-xl font-semibold text-gray-900">
             {details.title}
             </span>
-            <ul>
+            <ul className="flex flex-col gap-1 pl-5 text-gray-600 list-disc">
             {
                 details.description.map((data, index)=>(
                     <li key={index}>{data}</li>
@@ -16,7 +16,7 @@ const ExperienceCard = ({ logo, details, dates }) => {
             }
             </ul>
           </div>
-          <div>{dates}</div>
+          <div className="text-gray-700">{dates}</div>
         </div>
       </div>
     </>
