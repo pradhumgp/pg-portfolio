@@ -1,4 +1,67 @@
-const Skills = ({refHook}) => {
+const Skills = ({ refHook }) => {
+  
+  const skillsData = [
+    {
+      imgsrc: "/javascript.svg",
+      name: "Javascript",
+    },
+    {
+      imgsrc: "/typescript.svg",
+      name: "Typescript",
+    },
+    {
+      imgsrc: "/nextjs.svg",
+      name: "Next.js",
+    },
+    {
+      imgsrc: "/react.svg",
+      name: "React",
+    },
+    {
+      imgsrc: "/vue.png",
+      name: "Vue.js",
+    },
+    {
+      imgsrc: "/expo.svg",
+      name: "Expo",
+    },
+    {
+      imgsrc: "/nodejs.svg",
+      name: "Node.js",
+    },
+    {
+      imgsrc: "/express.svg",
+      name: "Express.js",
+    },
+    {
+      imgsrc: "/mongodb.svg",
+      name: "MongoDB",
+    },
+    {
+      imgsrc: "/postgresql.svg",
+      name: "PostgreSQL",
+    },
+    {
+      imgsrc: "/scss.svg",
+      name: "Saas/Scss",
+    },
+    {
+      imgsrc: "/tailwindcss.svg",
+      name: "TailwindCss",
+    },
+    {
+      imgsrc: "/git.svg",
+      name: "Git",
+    },
+    {
+      imgsrc: "/aws.png",
+      name: "AWS",
+    },
+    {
+      imgsrc: "/socket.svg",
+      name: "Socket.io",
+    },
+  ];
   return (
     <>
       <div className="px-20 py-24" ref={refHook}>
@@ -15,80 +78,14 @@ const Skills = ({refHook}) => {
           </div>
           <div>
             <ul className="flex flex-wrap items-baseline justify-center max-w-3xl gap-12">
-              <li className="flex flex-col items-center gap-2">
-                <img src="/javascript.svg" alt="javascript" />
-                <span className="text-lg text-gray-600">Javascript</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/typescript.svg" alt="typescript" />
-                <span className="text-lg text-gray-600">Typescript</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/nextjs.svg" alt="nextjs" />
-                <span className="text-lg text-gray-600">Nextjs</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/react.svg" alt="react" />
-                <span className="text-lg text-gray-600">React</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/vue.png" alt="vuejs" />
-                <span className="text-lg text-gray-600">Vue.js</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/expo.svg" alt="expo" />
-                <span className="text-lg text-gray-600">Expo.dev</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/nodejs.svg" alt="nodejs" />
-                <span className="text-lg text-gray-600">Node.js</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/express.svg" alt="express" />
-                <span className="text-lg text-gray-600">Express</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/mongodb.svg" alt="mongodb" />
-                <span className="text-lg text-gray-600">MongoDB</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/postgresql.svg" alt="postgresql" />
-                <span className="text-lg text-gray-600">PostgreSQL</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/scss.svg" alt="sass/saas" />
-                <span className="text-lg text-gray-600">Saas/Scss</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/tailwindcss.svg" alt="tailwindcss" />
-                <span className="text-lg text-gray-600">TailwindCss</span>
-              </li>
-              
-              <li className="flex flex-col items-center gap-2">
-                <img src="/git.svg" alt="git" />
-                <span className="text-lg text-gray-600">Git</span>
-              </li>
-              
-              <li className="flex flex-col items-center gap-2">
-                <img src="/aws.png" alt="aws" />
-                <span className="text-lg text-gray-600">AWS</span>
-              </li>
-
-              <li className="flex flex-col items-center gap-2">
-                <img src="/socket.svg" alt="socket" />
-                <span className="text-lg text-gray-600">Socket.io</span>
-              </li>
+            {
+              skillsData.map((skill, index)=>(
+                <li className="flex flex-col items-center gap-2" key={index}>
+                   <img src={skill.imgsrc} alt={skill.name} />
+                   <span className="text-lg text-gray-600">{skill.name}</span>
+                </li>
+              ))
+            }
             </ul>
           </div>
         </div>

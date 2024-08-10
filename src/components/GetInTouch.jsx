@@ -20,27 +20,28 @@ const GetInTouch = ({refHook}) => {
               <span className="text-4xl text-gray-900">
                 pradhumgp@gmail.com
               </span>
-              <img src="/copy.svg" alt="" />
+              <img src="/copy.svg" alt="" className="hover:bg-gray-100 hover:rounded-sm"/>
             </div>
 
             <div className="flex items-center gap-4">
               <img src="/phone.svg" alt="" />
               <span className="text-4xl text-gray-900">+91-7078852678</span>
-              <img src="/copy.svg" alt="" />
+              <img src="/copy.svg" alt="" className="hover:bg-gray-100 hover:rounded-sm"/>
             </div>
           </div>
           <div className="flex flex-col items-center gap-4">
             <span className="font-normal text-gray-600">You may also find me on these platforms!</span>
             <div className="flex gap-1">
-              <a href="https://github.com/pradhumgp" target="blank">
+              <a href="https://github.com/pradhumgp" target="blank" className="hover:bg-gray-100 hover:rounded-sm">
                 <img src="/github.svg" alt="github" />
               </a>
-              <a href="https://x.com/pradhumgp" target="blank">
+              <a href="https://x.com/pradhumgp" target="blank" className="hover:bg-gray-100 hover:rounded-sm">
                 <img src="/twitter.svg" alt="twitter" />
               </a>
               <a
                 href="https://www.linkedin.com/in/pradhum-gupta-8860291b4/"
                 target="blank"
+                className="hover:bg-gray-100 hover:rounded-sm"
               >
                 <img src="/linkedin.svg" alt="linkedin" />
               </a>

@@ -1,19 +1,20 @@
 const Hero = () => {
   return (
     <>
-      <div className="px-20 py-24 pb-0">
-        <div className="flex justify-between gap-12 px-8">
+      <div className="p-0 md:pb-0 md:py-24 md:px-20">
+        <div className="flex flex-col-reverse items-center gap-12 p-4 md:py-0 md:px-8 md:justify-between md:flex-row">
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-2">
               <span className="text-6xl font-bold text-gray-900 leading-72">
                 Hi, I&#39;m Pradhum 👋
               </span>
               <p className="max-w-2xl text-gray-600 leading-24">
-                I&#39;m a full stack developer (React.js & Node.js) with a focus
-                on creating (and occasionally designing) exceptional digital
-                experiences that are fast, accessible, visually appealing, and
-                responsive. Even though I have been creating web applications
-                for over 7 years, I still love it as if it was something new.
+                I&#39;m a full stack developer specializing in React.js and
+                Node.js, with 2 years of experience creating exceptional digital
+                experiences. My focus is on delivering fast, accessible,
+                visually appealing, and responsive web applications. Despite
+                having been in the field for over 2 years, my passion for web
+                development remains as strong as ever.
               </p>
             </div>
 
@@ -27,21 +28,30 @@ const Hero = () => {
               <div className="flex gap-2">
                 <img src="/online.svg" alt="" />
                 <span className="text-gray-600 leading-24">
-                  Available for new projects
+                  Available to work
                 </span>
               </div>
             </div>
 
             <div className="flex gap-1">
-              <a href="https://github.com/pradhumgp" target="blank">
+              <a
+                href="https://github.com/pradhumgp"
+                target="blank"
+                className="hover:bg-gray-100 hover:rounded-sm"
+              >
                 <img src="/github.svg" alt="github" />
               </a>
-              <a href="https://x.com/pradhumgp" target="blank">
+              <a
+                href="https://x.com/pradhumgp"
+                target="blank"
+                className="hover:bg-gray-100 hover:rounded-sm"
+              >
                 <img src="/twitter.svg" alt="twitter" />
               </a>
               <a
                 href="https://www.linkedin.com/in/pradhum-gupta-8860291b4/"
                 target="blank"
+                className="hover:bg-gray-100 hover:rounded-sm"
               >
                 <img src="/linkedin.svg" alt="linkedin" />
               </a>
@@ -51,7 +61,7 @@ const Hero = () => {
             <img
               src="/vector.svg"
               alt="Pradhum's photo"
-              className="object-cover w-full h-full"
+              className="object-cover w-auto h-full"
             />
           </div>
         </div>
