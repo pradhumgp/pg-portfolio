@@ -1,14 +1,14 @@
 const Hero = () => {
   return (
     <>
-      <div className="p-0 md:pb-0 md:py-24 md:px-20">
-        <div className="flex flex-col-reverse items-center gap-12 p-4 md:py-0 md:px-8 md:justify-between md:flex-row">
+      <div className="p-4 md:pb-0 md:py-24 md:px-20">
+        <div className="flex flex-col-reverse items-center gap-12 md:px-8 md:justify-between md:flex-row">
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-2">
               <span className="text-6xl font-bold text-gray-900 leading-72">
                 Hi, I&#39;m Pradhum 👋
               </span>
-              <p className="max-w-2xl text-gray-600 leading-24">
+              <p className="max-w-xl text-gray-600 leading-24">
                 I&#39;m a full stack developer specializing in React.js and
                 Node.js, with 2 years of experience creating exceptional digital
                 experiences. My focus is on delivering fast, accessible,
@@ -57,13 +57,11 @@ const Hero = () => {
               </a>
             </div>
           </div>
-          <div>
-            <img
-              src="/vector.svg"
-              alt="Pradhum's photo"
-              className="object-cover w-auto h-full"
-            />
-          </div>
+          <img
+            src="/vector.svg"
+            alt="Pradhum's photo"
+            className="self-auto w-full h-full md:w-1/2 md:h-3/4 md:self-end"
+          />
         </div>
       </div>
     </>
