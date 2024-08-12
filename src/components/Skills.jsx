@@ -64,8 +64,8 @@ const Skills = ({ refHook }) => {
   ];
   return (
     <>
-      <div className="px-20 py-24" ref={refHook}>
-        <div className="flex flex-col items-center gap-12 px-8">
+      <div className="p-4 md:p-8 lg:py-24 lg:px-20" ref={refHook}>
+        <div className="flex flex-col items-center gap-12 p-0 md:px-8">
           <div className="flex flex-col items-center gap-4">
             <div>
               <button className="px-5 py-1 text-sm font-medium text-gray-600 bg-gray-200 leading-20 rounded-xl">

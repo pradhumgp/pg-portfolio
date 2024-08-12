@@ -1,8 +1,8 @@
 const GetInTouch = ({refHook}) => {
   return (
     <>
-      <div className="px-20 py-24" ref={refHook}>
-        <div className="flex flex-col items-center gap-12 px-8">
+      <div className="p-4 md:p-8 lg:py-24 lg:px-20" ref={refHook}>
+        <div className="flex flex-col items-center gap-12 p-0 md:px-8">
           <div className="flex flex-col items-center gap-4">
             <div>
               <button className="px-5 py-1 text-sm font-medium text-gray-600 bg-gray-200 leading-20 rounded-xl">
@@ -17,7 +17,7 @@ const GetInTouch = ({refHook}) => {
           <div className="flex flex-col items-center gap-4">
             <div className="flex items-center gap-4">
               <img src="/mail.svg" alt="" />
-              <span className="text-4xl text-gray-900">
+              <span className="text-2xl text-gray-900 md:text-4xl">
                 pradhumgp@gmail.com
               </span>
               <img src="/copy.svg" alt="" className="hover:bg-gray-100 hover:rounded-sm"/>
@@ -25,7 +25,7 @@ const GetInTouch = ({refHook}) => {
 
             <div className="flex items-center gap-4">
               <img src="/phone.svg" alt="" />
-              <span className="text-4xl text-gray-900">+91-7078852678</span>
+              <span className="text-2xl text-gray-900 md:text-4xl">+91-7078852678</span>
               <img src="/copy.svg" alt="" className="hover:bg-gray-100 hover:rounded-sm"/>
             </div>
           </div>

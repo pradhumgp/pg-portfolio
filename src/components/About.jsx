@@ -1,16 +1,16 @@
 const About = ({refHook}) => {
   return (
     <>
-      <div className="px-20 py-24 bg-gray-100" ref={refHook}>
-        <div className="flex flex-col gap-12 px-8">
+      <div className="p-4 bg-gray-100 md:p-8 lg:py-24 lg:px-20" ref={refHook}>
+        <div className="flex flex-col gap-12 p-0 md:px-8">
           <div className="self-center">
             <button className="px-5 py-1 text-sm font-medium text-gray-600 bg-gray-200 leading-20 rounded-xl">
               About me
             </button>
           </div>
-          <div className="flex gap-12 justify-evenly">
+          <div className="flex flex-col items-center gap-12 lg:items-start lg:justify-evenly lg:flex-row">
             <div>
-            <img src="/pg.jpeg" alt="Pradhum's photo" className="object-cover h-full max-w-xl border border-black shadow-xl"/>
+            <img src="/pg.jpeg" alt="Pradhum's photo" className="object-contain w-auto border border-black"/>
             </div>
           <div className="flex flex-col max-w-xl gap-12">
             <div>
