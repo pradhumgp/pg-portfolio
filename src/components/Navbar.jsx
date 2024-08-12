@@ -47,7 +47,7 @@ const Navbar = ({
           </ul>
         </div>
       </div>
-      <Drawer show={show} toggle={toggleDrawer}/>
+      <Drawer show={show} toggle={toggleDrawer} scrollToSection={scrollToSection} aboutRef={aboutRef} skillsRef={skillsRef} experienceRef={experienceRef} getInTouchRef={getInTouchRef}/>
     </>
   );
 };
