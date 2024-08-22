@@ -22,11 +22,12 @@ const HomePage = () => {
     <>
       <div className="w-screen h-screen">
         <Navbar
-     scrollToSection={scrollToSection}
-     aboutRef={aboutRef}
-     skillsRef={skillsRef}
-     experienceRef={experienceRef}
-     getInTouchRef={getInTouchRef}/>
+          scrollToSection={scrollToSection}
+          aboutRef={aboutRef}
+          skillsRef={skillsRef}
+          experienceRef={experienceRef}
+          getInTouchRef={getInTouchRef}
+        />
         <Hero />
         <About refHook={aboutRef} />
         <Skills refHook={skillsRef} />

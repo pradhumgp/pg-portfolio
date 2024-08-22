@@ -5,9 +5,10 @@ const Hero = () => {
         <div className="flex flex-col-reverse items-center gap-12 md:px-8 md:justify-between md:flex-row">
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-2">
-              <span className="text-6xl font-bold text-gray-900 leading-72">
-                Hi, I&#39;m Pradhum 👋
-              </span>
+              <div className="text-6xl font-bold text-gray-900 leading-72">
+                Hi, I&#39;m Pradhum{" "}
+                <span className="inline-block animate-complexWave">👋</span>
+              </div>
               <p className="max-w-xl text-gray-600 leading-24">
                 I&#39;m a full stack developer specializing in React.js and
                 Node.js, with 2 years of experience creating exceptional digital
@@ -20,13 +21,13 @@ const Hero = () => {
 
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <img src="/location.svg" alt="location"/>
+                <img src="/location.svg" alt="location" />
                 <span className="text-gray-600 leading-24">
                   Firozabad, India
                 </span>
               </div>
               <div className="flex gap-2">
-                <img src="/online.svg" alt="" className="animate-pulse"/>
+                <img src="/online.svg" alt="" className="animate-pulse" />
                 <span className="text-gray-600 leading-24">
                   Available to work
                 </span>
@@ -60,7 +61,7 @@ const Hero = () => {
           <img
             src="/vector.svg"
             alt="Pradhum's photo"
-            className="self-auto w-full h-full md:w-1/2 md:h-3/4 md:self-end"
+            className="self-auto w-full h-full md:w-1/2 md:h-3/4 md:self-end animate-reveal"
           />
         </div>
       </div>
