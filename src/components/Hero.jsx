@@ -20,13 +20,13 @@ const Hero = () => {
 
             <div className="flex flex-col gap-2">
               <div className="flex gap-2">
-                <img src="/location.svg" alt="location" />
+                <img src="/location.svg" alt="location"/>
                 <span className="text-gray-600 leading-24">
                   Firozabad, India
                 </span>
               </div>
               <div className="flex gap-2">
-                <img src="/online.svg" alt="" />
+                <img src="/online.svg" alt="" className="animate-pulse"/>
                 <span className="text-gray-600 leading-24">
                   Available to work
                 </span>
