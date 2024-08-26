@@ -6,7 +6,7 @@ const Hero = () => {
           <div className="flex flex-col gap-12">
             <div className="flex flex-col gap-2">
               <div className="text-6xl font-bold text-gray-900 leading-72">
-                Hi, I&#39;m Pradhum{" "}
+                Hi, I&#39;m Pradhum
                 <span className="inline-block animate-complexWave">👋</span>
               </div>
               <p className="max-w-xl text-gray-600 leading-24">
@@ -61,7 +61,7 @@ const Hero = () => {
           <img
             src="/vector.svg"
             alt="Pradhum's photo"
-            className="self-auto w-full h-full md:w-1/2 md:h-3/4 md:self-end animate-reveal"
+            className="self-auto w-full h-full md:w-1/2 md:h-3/4 md:self-end"
           />
         </div>
       </div>
